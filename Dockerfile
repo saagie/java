@@ -12,3 +12,7 @@ MAINTAINER Christophe Saagie
 RUN apk --update add krb5
 
 ENV HADOOP_CONF_DIR=/etc/hadoop/conf
+
+
+
+
