@@ -3,7 +3,7 @@
 ########################################################################
 
 # pull base image
-FROM openjdk:8u131-jre-alpine
+FROM openjdk:8u121-jre-alpine
 
 # maintainer details
 MAINTAINER Christophe Saagie
@@ -11,4 +11,6 @@ MAINTAINER Christophe Saagie
 # Add librairy kerberos
 RUN apk --update add krb5
 
-ENV HADOOP_CONF_DIR=/etc/hadoop/conf
+ENV HADOOP_CONF_DIR=/etc/hadoop/conf*
+
+
