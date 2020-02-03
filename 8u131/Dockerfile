@@ -3,7 +3,7 @@
 ########################################################################
 
 # pull base image
-FROM openjdk:8u131-jre-alpine
+FROM saagie/java:8.131-base
 
 # maintainer details
 MAINTAINER Christophe Saagie
